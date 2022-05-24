@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+@import "./Variables/Sass.scss";
 
 *,
 *::after,
@@ -7,7 +7,15 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: $openSans;
   margin: 0;
   padding: 0;
+}
+
+.App {
+  background-color: $mainBG;
+  height: fit-content;
+  padding: 0.75em;
+  position: relative;
+  width: 375px;
 }

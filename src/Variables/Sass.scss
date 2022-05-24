@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
 //colors
 $white: #ffffff;
 $cyan: #62e0d9;
 $black: #000000;
-$darkBlueOne: #1b2330;
-$darkBlueTwo: #202a3c;
-$darkBlueThree: #181f2b;
-$darkBlueFour: #0b1524;
+$introBG: #1c2431;
+$commentBG: #202a3c;
+$mainBG: #181f2b;
+$footerBG: #0b1524;
 $lightBlue: #8adae3;
 $offWhite: #dfe4f0;
 $blue: #07043b;
 $red: #ff4242;
+
+//fonts
+$openSans: "Open Sans", sans-serif;
+$raleway: "Raleway", sans-serif;
