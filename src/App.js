@@ -1,4 +1,5 @@
 //components
+import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
 
@@ -15,6 +16,7 @@ function App() {
         alt="mobile-bg"
       />
       <Intro />
+      <About />
     </div>
   );
 }

@@ -15,7 +15,6 @@ body {
 .App {
   background-color: $introBG;
   height: fit-content;
-  padding: 0.75em;
   position: relative;
   width: 375px;
 
@@ -23,7 +22,7 @@ body {
     height: 141px;
     left: 0;
     position: absolute;
-    top: 42%;
+    top: 15%;
     width: 375px;
   }
 }

@@ -24,6 +24,7 @@
   }
 
   .intro-title {
+    font-family: $raleway;
     font-size: 24px;
     margin-top: 33px;
     position: relative;
@@ -36,10 +37,10 @@
     content: "";
     background-color: $mainBG;
     bottom: 0;
-    height: 227px;
+    height: 318px;
     left: -28px;
     position: absolute;
-    top: 69%;
+    top: 87%;
     width: 375px;
     z-index: -1;
   }
