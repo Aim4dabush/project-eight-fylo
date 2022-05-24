@@ -2,7 +2,7 @@
 export const white = "#ffffff";
 export const cyan = "#62e0d9";
 export const black = "#000000";
-export const introBG = "#1C2431";
+export const introBG = "#1b2330";
 export const commentBG = "#202a3c";
 export const mainBG = "#181f2b";
 export const footerBG = "#0b1524";

@@ -13,9 +13,17 @@ body {
 }
 
 .App {
-  background-color: $mainBG;
+  background-color: $introBG;
   height: fit-content;
   padding: 0.75em;
   position: relative;
   width: 375px;
+
+  .mobile-bg {
+    height: 141px;
+    left: 0;
+    position: absolute;
+    top: 42%;
+    width: 375px;
+  }
 }
