@@ -23,11 +23,13 @@ function Productive() {
         live collaboration. No email attachments required.
       </p>
       <div className="productive-link">
-        <a href="/">See how Fylo works</a>
-        <img
-          src={process.env.PUBLIC_URL + "/images/icon-arrow.svg"}
-          alt="arrow"
-        />
+        <a href="/">
+          See how Fylo works{" "}
+          <img
+            src={process.env.PUBLIC_URL + "/images/icon-arrow.svg"}
+            alt="arrow"
+          />
+        </a>
       </div>
     </div>
   );

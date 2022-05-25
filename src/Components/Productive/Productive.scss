@@ -20,6 +20,7 @@
   .productive-link {
     align-items: center;
     color: $cyan;
+    cursor: pointer;
     display: flex;
     font-size: 12px;
     padding-bottom: 6px;
@@ -27,23 +28,33 @@
     text-decoration: none;
     width: 100%;
 
-    &::after {
-      background-color: $cyan;
-      bottom: 0;
-      content: "";
-      height: 2px;
-      left: 0;
-      position: absolute;
-      width: 127px;
-    }
-
     a {
+      align-items: center;
       color: $cyan;
+      display: flex;
       text-decoration: none;
-    }
 
-    img {
-      margin-left: 5px;
+      &:hover {
+        color: $white;
+      }
+
+      &::after {
+        background-color: $cyan;
+        bottom: 0;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        width: 127px;
+      }
+
+      &:hover:after {
+        background-color: $white;
+      }
+
+      img {
+        margin-left: 5px;
+      }
     }
   }
 
