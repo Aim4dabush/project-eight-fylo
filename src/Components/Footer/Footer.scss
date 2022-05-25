@@ -1,0 +1,13 @@
+@import "../../Variables/Sass.scss";
+
+.footer-container {
+  background-color: $footerBG;
+  color: $white;
+  padding: 0 28px 0 28px;
+
+  .footer-img {
+    height: 31px;
+    width: 108px;
+    margin: 259px 0 0 11px;
+  }
+}

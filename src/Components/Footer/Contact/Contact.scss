@@ -1,0 +1,58 @@
+@import "../../../Variables/Sass.scss";
+
+.contact-container {
+  font-size: 14px;
+  height: 176px;
+  margin-top: 35px;
+  width: 319px;
+
+  .location {
+    align-items: flex-start;
+    display: flex;
+    width: 279px;
+
+    img {
+      height: 18px;
+      width: 13px;
+    }
+
+    p {
+      font-size: 16px;
+      height: 96px;
+      margin: 0 0 0 16px;
+      width: 279px;
+    }
+  }
+
+  .phone {
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+
+    img {
+      height: 13px;
+      width: 13px;
+    }
+
+    p {
+      height: 21px;
+      margin: 0 0 0 16px;
+      width: 110px;
+    }
+  }
+
+  .email {
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+
+    img {
+      height: 16px;
+      width: 20px;
+    }
+
+    p {
+      margin: 0 0 0 16px;
+    }
+  }
+}

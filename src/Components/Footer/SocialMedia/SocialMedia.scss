@@ -1,0 +1,30 @@
+@import "../../../Variables/Sass.scss";
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 56px;
+  padding-bottom: 52px;
+  width: 100%;
+
+  a {
+    align-items: center;
+    border: 1px solid $white;
+    border-radius: 50%;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    height: 27px;
+    margin: 0 5px;
+    width: 27px;
+
+    &:hover {
+      border-color: $cyan;
+      color: $cyan;
+    }
+
+    .brand {
+      font-size: 12px;
+    }
+  }
+}

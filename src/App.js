@@ -1,6 +1,7 @@
 //components
 import About from "./Components/About/About";
 import Comments from "./Components/Comments/Comments";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
 import Productive from "./Components/Productive/Productive";
@@ -23,6 +24,7 @@ function App() {
       <Productive />
       <Comments />
       <SignUp />
+      <Footer />
     </div>
   );
 }
