@@ -17,6 +17,11 @@ const Button = styled.button`
 export const IntroButton = styled(Button)`
   width: 240px;
   z-index: 1;
+
+  &:hover {
+    background-color: ${lightBlue};
+    background-image: none;
+  }
 `;
 
 export const SignUpButton = styled(Button)`
@@ -24,5 +29,6 @@ export const SignUpButton = styled(Button)`
 
   &:hover {
     background-color: ${lightBlue};
+    background-image: none;
   }
 `;
