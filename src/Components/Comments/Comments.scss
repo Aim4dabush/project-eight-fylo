@@ -1,0 +1,11 @@
+@import "../../Variables/Sass.scss";
+
+.comments-container {
+  background-color: $mainBG;
+  padding: 160px 48px 0px 48px;
+
+  img {
+    height: 32px;
+    width: 32px;
+  }
+}

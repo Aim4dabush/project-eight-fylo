@@ -1,5 +1,6 @@
 //components
 import About from "./Components/About/About";
+import Comments from "./Components/Comments/Comments";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
 import Productive from "./Components/Productive/Productive";
@@ -19,6 +20,7 @@ function App() {
       <Intro />
       <About />
       <Productive />
+      <Comments />
     </div>
   );
 }
