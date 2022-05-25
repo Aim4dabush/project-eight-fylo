@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { cyan, lightBlue, white } from "../Variables/JS";
+import { cyan, lightBlue, raleway, white } from "../Variables/JS";
 
 const Button = styled.button`
   background-image: linear-gradient(-45deg, ${cyan}, ${lightBlue});
@@ -8,12 +8,17 @@ const Button = styled.button`
   border-radius: 24px;
   color: ${white};
   cursor: pointer;
+  font-family: ${raleway};
+  font-size: 14px;
+  font-weight: 700px;
+  height: 48px;
 `;
 
 export const IntroButton = styled(Button)`
-  height: 48px;
-  font-size: 14px;
-  font-weight: 700px;
   width: 240px;
   z-index: 1;
+`;
+
+export const SignUpButton = styled(Button)`
+  width: 280px;
 `;

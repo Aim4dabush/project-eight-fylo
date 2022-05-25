@@ -10,6 +10,7 @@ export const lightBlue = "#8adae3";
 export const offWhite = "#dfe4f0";
 export const blue = "#07043b";
 export const red = "#ff4242";
+export const grey = "#c0c0c0";
 
 //fonts
 export const openSans = "'Open Sans', sans-serif";

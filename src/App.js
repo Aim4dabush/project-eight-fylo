@@ -4,6 +4,7 @@ import Comments from "./Components/Comments/Comments";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
 import Productive from "./Components/Productive/Productive";
+import SignUp from "./Components/SignUp/SignUp";
 
 //styles
 import "./App.scss";
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Productive />
       <Comments />
+      <SignUp />
     </div>
   );
 }
