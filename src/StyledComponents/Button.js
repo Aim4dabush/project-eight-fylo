@@ -21,4 +21,8 @@ export const IntroButton = styled(Button)`
 
 export const SignUpButton = styled(Button)`
   width: 280px;
+
+  &:hover {
+    background-color: ${lightBlue};
+  }
 `;
