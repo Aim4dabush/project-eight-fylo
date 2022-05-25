@@ -2,6 +2,7 @@
 import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
+import Productive from "./Components/Productive/Productive";
 
 //styles
 import "./App.scss";
@@ -17,6 +18,7 @@ function App() {
       />
       <Intro />
       <About />
+      <Productive />
     </div>
   );
 }

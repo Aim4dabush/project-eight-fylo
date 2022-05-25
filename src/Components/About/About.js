@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-import AboutCard from "./AboutCard/AboutCard";
+import AboutSections from "./AboutSections/AboutSections";
 
 //styles
 import "./About.scss";
@@ -9,7 +9,7 @@ import "./About.scss";
 function About() {
   return (
     <div className="about-container">
-      <AboutCard />
+      <AboutSections />
     </div>
   );
 }

@@ -4,22 +4,22 @@ import React from "react";
 import { AboutData } from "../../../Data/AboutData";
 
 //styles
-import { Card } from "../../../StyledComponents/Card";
+import { AboutCard } from "../../../StyledComponents/Card";
 
-function AboutCard() {
+function AboutSections() {
   return (
     <div>
       {AboutData.map((data) => {
         return (
-          <Card key={data.title}>
+          <AboutCard key={data.title}>
             <img src={data.image} alt={data.title} />
             <h1>{data.title}</h1>
             <p>{data.info}</p>
-          </Card>
+          </AboutCard>
         );
       })}
     </div>
   );
 }
 
-export default AboutCard;
+export default AboutSections;

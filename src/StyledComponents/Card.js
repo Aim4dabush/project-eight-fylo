@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { raleway, white } from "../Variables/JS";
 
-export const Card = styled.div`
+export const AboutCard = styled.div`
   align-items: center;
   color: ${white};
   display: flex;
@@ -11,6 +11,10 @@ export const Card = styled.div`
   position: relative;
   text-align: center;
   width: 320px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   h1 {
     font-family: ${raleway};

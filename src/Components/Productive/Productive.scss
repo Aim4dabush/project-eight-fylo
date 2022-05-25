@@ -1,0 +1,54 @@
+@import "../../Variables/Sass.scss";
+
+.productive-container {
+  align-items: center;
+  background-color: $mainBG;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 28px 0 28px;
+
+  .productive-content {
+    font-size: 14px;
+  }
+
+  .productive-img {
+    height: 230px;
+    width: 304px;
+  }
+
+  .productive-link {
+    align-items: center;
+    color: $cyan;
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 6px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+
+    &::after {
+      background-color: $cyan;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 127px;
+    }
+
+    a {
+      color: $cyan;
+      text-decoration: none;
+    }
+
+    img {
+      margin-left: 5px;
+    }
+  }
+
+  .productive-title {
+    font-family: $raleway;
+    font-size: 18px;
+  }
+}
