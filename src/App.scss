@@ -13,10 +13,17 @@ body {
 }
 
 .App {
+  align-items: center;
   background-color: $introBG;
+  display: flex;
+  flex-direction: column;
   height: fit-content;
   position: relative;
   width: 375px;
+
+  .desktop-bg {
+    display: none;
+  }
 
   .mobile-bg {
     height: 141px;
@@ -24,5 +31,27 @@ body {
     position: absolute;
     top: 6%;
     width: 375px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .App {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+
+    .desktop-bg {
+      height: 534px;
+      left: 0;
+      display: inline;
+      position: absolute;
+      top: 20%;
+      width: 1440px;
+    }
+
+    .mobile-bg {
+      display: none;
+    }
   }
 }

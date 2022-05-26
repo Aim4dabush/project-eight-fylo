@@ -1,0 +1,15 @@
+@import "../../../Variables/Sass.scss";
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .comment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

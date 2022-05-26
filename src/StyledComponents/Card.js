@@ -23,6 +23,11 @@ export const AboutCard = styled.div`
     margin-bottom: 0;
   }
 
+  img {
+    height: 88px;
+    width: 91px;
+  }
+
   p {
     font-size: 14px;
     margin-top: 8px;
@@ -51,18 +56,38 @@ export const CommentCard = styled.div`
 
     .user-img {
       border-radius: 50%;
+      height: 24px;
+      width: 24px;
     }
 
     .user-title {
       margin-left: 5px;
 
       h3 {
+        font-size: 10px;
         margin: 0;
       }
 
       h5 {
         font-size: 7px;
         margin: 4px 0 0 0;
+      }
+    }
+  }
+
+  @media (min-width: 1440px) {
+    height: 200px;
+    width: 360px;
+
+    .user-comment {
+      font-size: 14px;
+    }
+
+    .user {
+      .user-title {
+        h5 {
+          font-size: 8px;
+        }
       }
     }
   }

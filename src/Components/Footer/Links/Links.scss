@@ -22,3 +22,17 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .links-container {
+    display: flex;
+    font-size: 16px;
+    margin-left: 397px;
+    margin-top: 196px;
+
+    ul {
+      margin-right: 80px;
+      width: 97px;
+    }
+  }
+}

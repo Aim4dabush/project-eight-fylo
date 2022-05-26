@@ -8,58 +8,104 @@
   flex-direction: column;
   padding: 160px 28px 0 28px;
 
-  .productive-content {
-    font-size: 14px;
+  .content-container {
+    width: 100%;
+    .productive-content {
+      font-size: 14px;
+    }
+
+    .productive-link {
+      align-items: center;
+      color: $cyan;
+      cursor: pointer;
+      display: flex;
+      font-size: 12px;
+      padding-bottom: 6px;
+      position: relative;
+      text-decoration: none;
+      width: 100%;
+
+      a {
+        align-items: center;
+        color: $cyan;
+        display: flex;
+        text-decoration: none;
+
+        &:hover {
+          color: $white;
+        }
+
+        &::after {
+          background-color: $cyan;
+          bottom: 0;
+          content: "";
+          height: 2px;
+          left: 0;
+          position: absolute;
+          width: 127px;
+        }
+
+        &:hover:after {
+          background-color: $white;
+        }
+
+        img {
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .productive-title {
+      font-family: $raleway;
+      font-size: 18px;
+      text-align: center;
+    }
   }
 
   .productive-img {
     height: 230px;
     width: 304px;
   }
+}
 
-  .productive-link {
-    align-items: center;
-    color: $cyan;
-    cursor: pointer;
+@media (min-width: 1440px) {
+  .productive-container {
     display: flex;
-    font-size: 12px;
-    padding-bottom: 6px;
-    position: relative;
-    text-decoration: none;
-    width: 100%;
+    flex-direction: row;
+    padding: 137px 101px 0 105px;
+    width: 1440px;
 
-    a {
-      align-items: center;
-      color: $cyan;
+    .content-container {
       display: flex;
-      text-decoration: none;
+      flex-direction: column;
+      margin-left: 57px;
 
-      &:hover {
-        color: $white;
+      .productive-content {
+        font-size: 16px;
+        height: 48px;
+        width: 563px;
       }
 
-      &::after {
-        background-color: $cyan;
-        bottom: 0;
-        content: "";
-        height: 2px;
-        left: 0;
-        position: absolute;
-        width: 127px;
+      .productive-link {
+        font-size: 16px;
+        a {
+          &::after {
+            width: 165px;
+          }
+        }
       }
 
-      &:hover:after {
-        background-color: $white;
-      }
-
-      img {
-        margin-left: 5px;
+      .productive-title {
+        font-size: 40px;
+        height: 100px;
+        width: 498px;
+        line-height: 50px;
       }
     }
-  }
 
-  .productive-title {
-    font-family: $raleway;
-    font-size: 18px;
+    .productive-img {
+      height: 464px;
+      width: 615px;
+    }
   }
 }

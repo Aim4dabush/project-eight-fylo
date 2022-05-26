@@ -4,10 +4,25 @@
   background-color: $footerBG;
   color: $white;
   padding: 0 28px 0 28px;
+  width: 100%;
 
   .footer-img {
     height: 31px;
     width: 108px;
     margin: 259px 0 0 11px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer-container {
+    display: flex;
+    position: relative;
+
+    .footer-img {
+      left: 80px;
+      position: absolute;
+      margin: 0;
+      top: 200px;
+    }
   }
 }

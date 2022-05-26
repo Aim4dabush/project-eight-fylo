@@ -32,20 +32,22 @@ function SignUp() {
           extremely generous. If you have any questions , our support team would
           be happy to help you.
         </p>
-        <div className="input-container">
-          <input
-            placeholder="email@example.com"
-            type="email"
-            value={email}
-            onChange={handleOnChange}
-          />
-          {valid ? null : (
-            <p className="error">Error, please check your email</p>
-          )}
+        <div className="submit-container">
+          <div className="input-container">
+            <input
+              placeholder="email@example.com"
+              type="email"
+              value={email}
+              onChange={handleOnChange}
+            />
+            {valid ? null : (
+              <p className="error">Error, please check your email</p>
+            )}
+          </div>
+          <SignUpButton onClick={handleOnClick}>
+            Get Started For Free
+          </SignUpButton>
         </div>
-        <SignUpButton onClick={handleOnClick}>
-          Get Started For Free
-        </SignUpButton>
       </div>
     </div>
   );

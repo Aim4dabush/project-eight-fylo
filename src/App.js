@@ -15,6 +15,11 @@ function App() {
     <div className="App">
       <Header />
       <img
+        className="desktop-bg"
+        src={process.env.PUBLIC_URL + "/images/background/bg-curvy-desktop.svg"}
+        alt="desktop-bg"
+      />
+      <img
         className="mobile-bg"
         src={process.env.PUBLIC_URL + "/images/background/bg-curvy-mobile.svg"}
         alt="mobile-bg"

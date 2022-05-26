@@ -1,14 +1,15 @@
 import React from "react";
 
 //data
-import { CommentData } from "../../../Data/AboutData";
+import { CommentData } from "../../../Data/CommentData";
 
 //style
+import "./CommentSections.scss";
 import { CommentCard } from "../../../StyledComponents/Card";
 
 function CommentSections() {
   return (
-    <div>
+    <div className="comment-container">
       {CommentData.map((comment) => {
         return (
           <CommentCard key={comment.user}>

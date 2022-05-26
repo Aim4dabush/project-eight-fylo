@@ -16,19 +16,21 @@ function Contact() {
           culpa, doloribus id deleniti tempora!
         </p>
       </div>
-      <div className="phone">
-        <img
-          src={process.env.PUBLIC_URL + "/images/footer/icon-phone.svg"}
-          alt="phone"
-        />
-        <p>+1-543-123-4567</p>
-      </div>
-      <div className="email">
-        <img
-          src={process.env.PUBLIC_URL + "/images/footer/icon-email.svg"}
-          alt="email"
-        />
-        <p>example@fylo.com</p>
+      <div className="contact-info">
+        <div className="phone">
+          <img
+            src={process.env.PUBLIC_URL + "/images/footer/icon-phone.svg"}
+            alt="phone"
+          />
+          <p>+1-543-123-4567</p>
+        </div>
+        <div className="email">
+          <img
+            src={process.env.PUBLIC_URL + "/images/footer/icon-email.svg"}
+            alt="email"
+          />
+          <p>example@fylo.com</p>
+        </div>
       </div>
     </div>
   );

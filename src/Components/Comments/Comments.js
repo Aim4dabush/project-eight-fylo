@@ -10,6 +10,7 @@ function Comments() {
   return (
     <div className="comments-container">
       <img
+        className="quotes"
         src={process.env.PUBLIC_URL + "/images/profile/bg-quotes.png"}
         alt="quotes"
       />

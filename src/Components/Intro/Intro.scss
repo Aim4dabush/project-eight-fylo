@@ -5,7 +5,7 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  margin-top: 48px;
+  padding: 48px;
   position: relative;
   width: 100%;
 
@@ -31,17 +31,44 @@
     text-align: center;
     width: 320px;
     z-index: 1;
-  }
 
-  .intro-title::after {
-    content: "";
-    background-color: $mainBG;
-    bottom: 0;
-    height: 281px;
-    left: -28px;
-    position: absolute;
-    top: 79%;
-    width: 375px;
-    z-index: -1;
+    &::after {
+      content: "";
+      background-color: $mainBG;
+      bottom: 0;
+      height: 281px;
+      left: -28px;
+      position: absolute;
+      top: 79%;
+      width: 375px;
+      z-index: -1;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro-container {
+    .intro-content {
+      font-size: 20px;
+      height: 90px;
+      width: 589px;
+    }
+
+    .intro-img {
+      height: 534px;
+      width: 720px;
+    }
+
+    .intro-title {
+      font-size: 40px;
+      font-weight: 700px;
+      height: 120px;
+      width: 734px;
+
+      &::after {
+        height: 0;
+        width: 0;
+      }
+    }
   }
 }

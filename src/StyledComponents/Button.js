@@ -22,6 +22,12 @@ export const IntroButton = styled(Button)`
     background-color: ${lightBlue};
     background-image: none;
   }
+
+  @media (min-width: 1440px) {
+    font-size: 16px;
+    height: 56px;
+    width: 280px;
+  }
 `;
 
 export const SignUpButton = styled(Button)`
@@ -30,5 +36,10 @@ export const SignUpButton = styled(Button)`
   &:hover {
     background-color: ${lightBlue};
     background-image: none;
+  }
+
+  @media (min-width: 1440px) {
+    width: 200px;
+    margin-left: 14.5px;
   }
 `;

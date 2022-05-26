@@ -2,10 +2,33 @@
 
 .comments-container {
   background-color: $mainBG;
+  display: flex;
+  flex-direction: column;
   padding: 160px 48px 0px 48px;
+  width: 375px;
 
-  img {
+  .quotes {
     height: 32px;
-    width: 32px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .comments-container {
+    display: flex;
+    flex-direction: row;
+    padding: 120px 141px 0px 120px;
+    position: relative;
+    width: 1440px;
+    z-index: 1;
+
+    .quotes {
+      height: 80px;
+      left: 130px;
+      position: absolute;
+      top: 65px;
+      width: 80px;
+      z-index: -1;
+    }
   }
 }

@@ -6,3 +6,10 @@
   padding: 120px 27px 0 27px;
   width: 375px;
 }
+
+@media (min-width: 1440px) {
+  .about-container {
+    margin-top: 186px;
+    width: 1440px;
+  }
+}
