@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project-eight-fylo/static/css/main.029ed67e.css",
+    "main.js": "/project-eight-fylo/static/js/main.e7b959e3.js",
+    "static/js/787.694d5dd1.chunk.js": "/project-eight-fylo/static/js/787.694d5dd1.chunk.js",
+    "index.html": "/project-eight-fylo/index.html",
+    "main.029ed67e.css.map": "/project-eight-fylo/static/css/main.029ed67e.css.map",
+    "main.e7b959e3.js.map": "/project-eight-fylo/static/js/main.e7b959e3.js.map",
+    "787.694d5dd1.chunk.js.map": "/project-eight-fylo/static/js/787.694d5dd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.029ed67e.css",
+    "static/js/main.e7b959e3.js"
+  ]
+}
